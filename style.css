@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(90deg,#FF501F,#FF951F)
+}
+#header{
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+#player1{
+  font-size: 150px;
+  float:left;
+  margin-left: 350px;
+}
+#player2{
+  font-size: 150px;
+  float:right;
+  margin-right: 350px; 
+}
+#reset{
+  display: block;
+  width: 150px;
+  height: 70px;
+  margin:450px auto;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.player1_div{
+  position: relative;
+}
+.player1_div button{
+  position: absolute;
+  width: 80px;
+  height:50px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  top: 350px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#plus_player1{
+  left:300px;
+  font-size: 60px;
+}
+#minus_player1{
+  left:410px;
+  font-size: 80px;
+}
+.player2_div button {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 455px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#plus_player2{
+  right:410px;
+  font-size: 60px;
+}
+#minus_player2{
+  right:300px;
+  font-size: 80px;
+}
+#home{
+  position: absolute;
+  top: -10px;
+  left: 275px;
+  font-size:80px;
+}
+#guest{
+  font-size: 80px;
+  position: absolute;
+  right: 275px;
+  top: 90px;
+}
+button:hover{
+  background-color: #C2C2C2
+}
